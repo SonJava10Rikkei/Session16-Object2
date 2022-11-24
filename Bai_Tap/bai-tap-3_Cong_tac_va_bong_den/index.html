@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sự kiện công tắc và bóng đèn</title>
+</head>
+<style>
+    * {
+        background-color: rgba(237, 237, 237, 0.299);
+    }
+
+    #image {
+        width: 200px;
+    }
+</style>
+
+<body>
+    <button onclick="changeColor()">Cong tac</button>
+    <img id="image"
+        src="https://www.citypng.com/public/uploads/preview/transparent-hd-real-light-bulb-31627602673jkajuxcctm.png"
+        alt="">
+    <script>
+        function changeColor() {
+            if (document.getElementById("image").src.endsWith("https://www.citypng.com/public/uploads/preview/transparent-hd-real-light-bulb-31627602673jkajuxcctm.png"))
+                document.getElementById("image").src = "https://www.freepnglogos.com/uploads/bulb-png/png-lightbulb-call-pal-nationwide-telephone-answering-1.png";
+            else {
+                document.getElementById("image").src = "https://www.citypng.com/public/uploads/preview/transparent-hd-real-light-bulb-31627602673jkajuxcctm.png";
+
+            }
+        }
+    </script>
+</body>
+
+</html>
