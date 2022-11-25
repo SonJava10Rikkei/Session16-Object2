@@ -5,6 +5,7 @@ const DEFAULT_COLS = 20;
 const DEFAULT_ROWS = 20;
 const DEFAULT_CELL_SIZE = 40;
 
+
 function Cell(x, y) {
     this.x = x;
     this.y = y;
